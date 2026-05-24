@@ -1,0 +1,7 @@
+# Deny all HTTP access to installation artifacts and SQL (defense in depth with root .htaccess).
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+    Deny from all
+</IfModule>
