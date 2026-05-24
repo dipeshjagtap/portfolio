@@ -152,11 +152,7 @@
         }
     }
 
-    function initSkillTooltips() {
-        var $skills = $("#skills");
-        if (!$skills.length) {
-            return;
-        }
+    function initTooltipTags() {
         var tipEl = document.getElementById("skill-tooltip");
         if (!tipEl) {
             tipEl = document.createElement("div");
@@ -178,7 +174,7 @@
             clearTimeout(hideTimer);
             tipEl.textContent = text;
             tipEl.classList.add("is-visible");
-            requestAnimationFrame(function () {
+            function placeTip() {
                 var r = el.getBoundingClientRect();
                 var tw = tipEl.offsetWidth;
                 var th = tipEl.offsetHeight;
@@ -190,25 +186,33 @@
                 }
                 tipEl.style.left = x + "px";
                 tipEl.style.top = y + "px";
+            }
+            requestAnimationFrame(function () {
+                placeTip();
+                if (tipEl.offsetWidth < 8) {
+                    requestAnimationFrame(placeTip);
+                }
             });
         }
-        $skills.on("mouseenter", ".tag--tooltip", function () {
+        $doc.on("mouseenter.tooltips", "#skills .tag--tooltip, .project-modal-root .tag--tooltip", function (e) {
+            e.stopPropagation();
             showTip(this);
         });
-        $skills.on("mouseleave", ".tag--tooltip", function () {
+        $doc.on("mouseleave.tooltips", "#skills .tag--tooltip, .project-modal-root .tag--tooltip", function () {
             hideTimer = setTimeout(hideTip, 80);
         });
-        $skills.on("focusin", ".tag--tooltip", function () {
+        $doc.on("focusin.tooltips", "#skills .tag--tooltip, .project-modal-root .tag--tooltip", function () {
             showTip(this);
         });
-        $skills.on("focusout", ".tag--tooltip", function () {
+        $doc.on("focusout.tooltips", "#skills .tag--tooltip, .project-modal-root .tag--tooltip", function () {
             hideTimer = setTimeout(hideTip, 100);
         });
-        $win.on("scroll.skilltip resize.skilltip", hideTip);
+        $win.on("scroll.tooltips resize.tooltips", hideTip);
+        $doc.on("scroll.tooltips", ".project-modal-scroll", hideTip);
     }
 
     initTenure();
-    initSkillTooltips();
+    initTooltipTags();
 
     function initProjectModals() {
         var $root = $("#project-modal-root");

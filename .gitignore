@@ -1,0 +1,67 @@
+# Cursor IDE / agent workspace
+.cursor/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+config/database.local.php
+
+# PHP dependencies (if Composer is added later)
+/vendor/
+composer.phar
+
+# Node (if tooling is added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Editors & IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Logs, cache, temp
+*.log
+logs/
+.cache/
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# PHP tooling caches
+.phpunit.result.cache
+.php-cs-fixer.cache
+phpstan-cache/
+
+# User uploads (resume PDF, etc.) — keep directory via .gitkeep if present
+/assets/uploads/*
+!assets/uploads/.gitkeep
+
+# Python (e.g. private/generate_favicons.py)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar

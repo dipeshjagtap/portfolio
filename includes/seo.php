@@ -42,7 +42,7 @@ $personJson = [
     'knowsAbout'  => [
         'Laravel', 'PHP', 'REST APIs', 'MySQL', 'MongoDB', 'JavaScript', 'AWS', 'CodeIgniter', 'Backend development',
     ],
-    'description' => 'Senior Software Developer in Pune specializing in Laravel, PHP, REST APIs, CRM integrations, MySQL, MongoDB, and AWS.',
+    'description' => 'Senior Software Developer at SRV Media, Pune, building Laravel applications, backend systems, API integrations, and scalable web platforms.',
 ];
 
 $personJson['contactPoint'] = [
@@ -64,7 +64,7 @@ if (PUBLIC_PHONE_E164 !== '') {
 <title><?= e($title) ?></title>
 <meta name="description" content="<?= e($description) ?>">
 <meta name="author" content="Dipesh Jagtap">
-<meta name="keywords" content="Dipesh Jagtap, SRV Media, Laravel Developer Pune, Senior Software Developer Pune, PHP, REST API, MySQL, AWS">
+<meta name="keywords" content="Dipesh Jagtap, Laravel Developer, PHP Developer, Full Stack Laravel Developer, REST API Developer, Laravel MySQL Developer, Web Application Developer, Software Developer Portfolio, Pune Laravel Developer">
 <meta name="robots" content="<?= $noindex ? 'noindex, nofollow' : 'index, follow' ?>">
 <meta name="theme-color" content="#0a0e17">
 <link rel="canonical" href="<?= e($canonical) ?>">
@@ -84,7 +84,10 @@ if (PUBLIC_PHONE_E164 !== '') {
 <link rel="apple-touch-icon" sizes="180x180" href="<?= e(asset_url('assets/images/favicon/apple-touch-icon.png')) ?>">
 <link rel="icon" type="image/png" sizes="32x32" href="<?= e(asset_url('assets/images/favicon/favicon-32x32.png')) ?>">
 <link rel="icon" type="image/png" sizes="16x16" href="<?= e(asset_url('assets/images/favicon/favicon-16x16.png')) ?>">
+<link rel="icon" type="image/png" sizes="192x192" href="<?= e(asset_url('assets/images/favicon/android-chrome-192x192.png')) ?>">
+<link rel="icon" type="image/png" sizes="512x512" href="<?= e(asset_url('assets/images/favicon/android-chrome-512x512.png')) ?>">
 <link rel="shortcut icon" href="<?= e(asset_url('assets/images/favicon/favicon.ico')) ?>">
+<link rel="manifest" href="<?= e(asset_url('assets/images/favicon/site.webmanifest')) ?>">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

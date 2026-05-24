@@ -10,12 +10,12 @@ $bodyClass = 'is-single-page';
 
 $pageMeta = [
     'title'          => 'Dipesh Jagtap | Senior Software Developer Pune | Laravel & PHP | SRV Media',
-    'description'    => 'Dipesh Jagtap — Senior Software Developer at SRV Media, Pune. Laravel, PHP, REST APIs, CRM integrations, MySQL, MongoDB, AWS. Backend-focused portfolio.',
+    'description'    => 'Dipesh Jagtap — Senior Software Developer at SRV Media, Pune, building Laravel applications, backend systems, API integrations, and scalable web platforms.',
     'json_ld_person' => true,
     'single_page'    => true,
 ];
 
-$loadIntlTelInput = true;
+$loadIntlTelInput = false;
 
 require __DIR__ . '/includes/header.php';
 

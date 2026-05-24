@@ -14,7 +14,7 @@ $footerWaUrl = $footerWaDigits !== '' ? 'https://wa.me/' . $footerWaDigits : '';
             <strong><?= e(SITE_NAME) ?></strong>
             <span class="footer-tagline"><?= e(SITE_TAGLINE) ?> · Pune, India</span>
             <p class="footer-closing">
-                Backend engineering, API integration, and scalable web applications — available for selective engagements and serious product work.
+            Building Laravel applications, integrations, and production-ready backend systems focused on reliability and long-term maintainability.
             </p>
         </div>
         <div class="footer-social-wrap">

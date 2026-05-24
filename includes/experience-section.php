@@ -4,7 +4,7 @@
             <span class="section-kicker">Experience</span>
             <h2 id="experience-title" class="section-title">Career timeline</h2>
             <p class="section-lead">
-                Hands-on ownership of <strong>business-facing systems</strong>—from lead and CRM workflows to integrations, admin tooling, and stable releases.
+                Engineering ownership across education platforms, CRM-connected products, enterprise tooling, and large-scale event systems.
             </p>
         </header>
 
@@ -12,27 +12,31 @@
             <article class="timeline-item">
                 <h3>SRV Media</h3>
                 <p class="role">Senior Software Developer</p>
-                <p class="when"><i class="fas fa-calendar" aria-hidden="true"></i> April 2023 – Present · Pune / Pimpri-Chinchwad · On-site</p>
+                <p class="when"><i class="fas fa-calendar" aria-hidden="true"></i> April 2023 - Present · Pune / Pimpri-Chinchwad · On-site</p>
                 <ul>
-                    <li>Own and extend <strong>backend services</strong> that underpin <strong>lead management</strong>, <strong>CRM-style workflows</strong>, and client-facing operations—keeping data flows consistent across forms, internal tools, and integrations.</li>
-                    <li>Build and maintain <strong>REST APIs</strong> and <strong>third-party integrations</strong> (payments, notifications, external services) with disciplined validation, error handling, and debugging when production behaviour diverges from specs.</li>
-                    <li>Deliver <strong>dynamic landing and campaign-related experiences</strong> backed by solid server logic—pairing <strong>Laravel</strong> / <strong>CodeIgniter</strong> with <strong>AJAX</strong>-driven UIs where fast, accurate updates matter for marketing and ops.</li>
-                    <li>Implement <strong>admin and reporting workflows</strong>: role-aware screens, searchable records, exports, and operational checks that reduce manual work and support audit-friendly usage.</li>
-                    <li>Run <strong>queues and async work</strong> (e.g. Horizon, Redis) so heavy jobs don’t block requests—mail, imports, and integration callbacks stay reliable under load.</li>
-                    <li>Improve <strong>performance and maintainability</strong>: query tuning, caching where appropriate, clearer module boundaries, and release habits that fit a busy production calendar.</li>
-                    <li>Support <strong>deployment and hosting</strong> on familiar stacks (e.g. AWS EC2, S3, Apache/cPanel-style environments) with sensible monitoring and rollback discipline.</li>
+                    <li>Build and extend <strong>Laravel</strong> platforms for <strong>education products</strong>—multi-role admin dashboards and enrolment flows with solid validation at the backend.</li>
+                    <li>Deliver <strong>enterprise scheduling</strong> with <strong>Outlook</strong> / <strong>Microsoft Graph</strong> OAuth, calendar sync, and approval steps for internal teams.</li>
+                    <li>Develop <strong>CMS-linked admin systems</strong> for content, courses, and publishing—<strong>AJAX-driven</strong> updates across branded property panels.</li>
+                    <li>Ship <strong>CRM-connected campaign landing pages</strong>—lead capture, enquiry routing, webhooks, and server-side validation tied to marketing pipelines.</li>
+                    <li>Integrate <strong>Easebuzz</strong> and partner services with disciplined validation, endpoint handling, and production debugging support.</li>
+                    <li>Build dynamic forms and admin screens where marketing and ops need fast filtering, accurate submissions, and dependable backend logic.</li>
+                    <li>Deliver <strong>reporting dashboards</strong> with role-based access, searchable records, exports, and checks suited to audit-friendly daily use.</li>
+                    <li>Own <strong>production debugging</strong>, backend troubleshooting, and release coordination — query tuning, lightweight <strong>Redis caching</strong>, and steady fixes during live operational cycles.</li>
                 </ul>
             </article>
 
             <article class="timeline-item">
                 <h3>Narmware Software Solutions Pvt Ltd</h3>
                 <p class="role">Software Developer</p>
-                <p class="when"><i class="fas fa-calendar" aria-hidden="true"></i> Oct 2018 – Apr 2023 · Pune · Hybrid</p>
+                <p class="when"><i class="fas fa-calendar" aria-hidden="true"></i> Oct 2018 - Apr 2023 · Pune · Hybrid</p>
                 <ul>
-                    <li>Delivered <strong>custom PHP applications</strong> on <strong>CodeIgniter</strong> end-to-end—from requirements and data modelling through <strong>REST APIs</strong>, <strong>admin modules</strong>, and <strong>deployment</strong>.</li>
-                    <li>Integrated <strong>external APIs and services</strong>, including auth, webhooks, and data sync patterns; tightened <strong>form pipelines</strong> and server-side validation so client rules were enforced consistently.</li>
-                    <li>Built <strong>AJAX-heavy interfaces</strong> for filtering, submissions, and internal workflows; debugged production issues across browser, application, and database layers.</li>
-                    <li>Collaborated through the full lifecycle: scoping, implementation, handover, and iterative fixes—establishing habits that carried into larger, integration-heavy systems later on.</li>
+                    <li>Owned end-to-end <strong>CodeIgniter</strong> / <strong>PHP</strong> builds for <strong>event, quiz, and examination platforms</strong>—registration at scale, scoring, analytics, and multi-role administration.</li>
+                    <li>Worked with clients to clarify requirements, translate them into implementation plans, and deliver across scoping, coding, handover, and post-release fixes.</li>
+                    <li>Built <strong>CMS-driven</strong> properties and <strong>AJAX-heavy admin panels</strong> for festivals and competition programmes, including payment integrations with <strong>Instamojo</strong>, <strong>Telr</strong>, and <strong>CCAvenue</strong>.</li>
+                    <li>Developed backend <strong>APIs</strong> for web and <strong>Android</strong> quiz applications—validation-driven endpoints for registrations, scoring, reporting, and coordinator workflows.</li>
+                    <li>Configured <strong>AWS</strong> hosting environments and <strong>load balancer</strong> setups; provisioned servers and prepared environments ahead of production releases.</li>
+                    <li>Handled deployment coordination, release support, and deployment troubleshooting to keep exam and event cycles stable under peak traffic.</li>
+                    <li>Helped teammates unblock hard bugs—tracing issues across browser, application, and database layers during live event and examination runs.</li>
                 </ul>
             </article>
         </div>

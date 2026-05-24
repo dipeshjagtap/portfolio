@@ -21,14 +21,16 @@ $pdfOk = is_file($pdfPathSection);
                     <i class="fas fa-file-pdf" aria-hidden="true"></i> Download PDF
                 </a>
                 <?php else: ?>
-                <span class="btn btn-secondary is-disabled btn--lg" title="Upload dipesh-jagtap-resume.pdf to assets/uploads/">PDF not on server</span>
+                <span class="btn btn-secondary is-disabled btn--lg" aria-disabled="true">
+                    <i class="fas fa-file-pdf" aria-hidden="true"></i> PDF resume coming soon
+                </span>
                 <?php endif; ?>
                 <div class="resume-actions__secondary">
                     <a class="btn btn-secondary" href="<?= e(base_url('resume')) ?>">Full resume page</a>
                     <a class="btn btn-ghost" href="<?= e(base_url('classic-resume/')) ?>">Classic site</a>
                 </div>
             </div>
-            <p class="resume-hint muted">Education, certifications, and honors are also on the <a href="<?= e(base_url('resume')) ?>">dedicated resume page</a>.</p>
+            <p class="resume-hint muted">A PDF download will be added here soon. Education, certifications, and honors are on the <a href="<?= e(base_url('resume')) ?>">dedicated resume page</a>.</p>
         </div>
     </div>
 </section>

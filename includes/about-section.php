@@ -2,18 +2,21 @@
     <div class="page-wrap">
         <header class="section-intro reveal">
             <span class="section-kicker">About</span>
-            <h2 id="about-title" class="section-title">Backend-first, product-minded</h2>
+            <h2 id="about-title" class="section-title">Backend systems built for production</h2>
             <p class="section-lead">
-                I'm <strong>Dipesh Jagtap</strong>, a <strong>Senior Software Developer</strong> in <strong>Pune</strong> focused on Laravel, PHP, and systems that stay fast, safe, and easy to evolve.
+                I'm <strong>Dipesh Jagtap</strong>, a <strong>Senior Software Developer</strong> in <strong>Pune</strong> focused on Laravel, PHP, and platforms that stay fast, safe, and easy to evolve.
             </p>
         </header>
 
         <div class="glass-card glass-card--prose reveal">
             <p>
-                I specialize in <strong>REST APIs</strong>, pragmatic architecture, and integrations that connect business workflows to the web — from authenticated API surfaces to queue-driven processing and cloud-backed deployments.
+                I work on <strong>API design</strong>, backend architecture, and connections between business tools and the web—from authenticated endpoints to background processing and cloud-backed deployments.
+            </p>
+            <p>
+                I enjoy solving backend problems that simplify day-to-day work and make platforms easier to maintain over time.
             </p>
             <p class="mb-0">
-                Clean code and efficient logic matter to me. I've worked across backend and frontend touchpoints — AJAX-driven interfaces, multilingual experiences, and CMS-driven sites — with ownership of data integrity and release discipline.
+                I value maintainable systems, predictable releases, and backend logic that stays reliable as products evolve. I've shipped across server and UI boundaries—AJAX-driven screens, multilingual sites, and CMS-backed properties—with steady ownership of data integrity and releases.
             </p>
         </div>
 
@@ -64,7 +67,7 @@
                 </li>
                 <?php endif; ?>
             </ul>
-            <a class="btn btn-primary nav-scroll connect-cta" href="<?= e(base_url('#contact')) ?>">Send a message</a>
+            <a class="btn btn-primary nav-scroll connect-cta" href="<?= e(base_url('#contact')) ?>">Let's connect</a>
         </div>
     </div>
 </section>

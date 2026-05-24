@@ -1,13 +1,9 @@
 {
-  "name": "Dipesh Jagtap | Senior Software Developer",
+  "name": "Dipesh Jagtap",
   "short_name": "Dipesh Jagtap",
-  "description": "Portfolio and professional resume of Dipesh Jagtap, Senior Software Developer specializing in Laravel, CodeIgniter, JavaScript, and AWS.",
-  "start_url": "/resume/",
-  "scope": "/resume/",
-  "display": "standalone",
-  "background_color": "#0d1117",
-  "theme_color": "#0d1117",
-  "orientation": "portrait",
+  "description": "Senior Software Developer portfolio — Laravel, PHP, and backend engineering.",
+  "start_url": "/",
+  "scope": "/",
   "icons": [
     {
       "src": "./android-chrome-192x192.png",
@@ -29,5 +25,8 @@
       "sizes": "16x16",
       "type": "image/png"
     }
-  ]
+  ],
+  "theme_color": "#0a0e17",
+  "background_color": "#0a0e17",
+  "display": "standalone"
 }
