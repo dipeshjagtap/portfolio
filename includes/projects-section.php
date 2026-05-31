@@ -21,6 +21,7 @@ $chipTooltips = [
     'Analytics'           => 'Usage metrics, reporting views, and data exports for product and ops decisions.',
     'Telr'                => 'Payment gateway for UAE and regional card processing and checkout flows.',
     'CCAvenue'            => 'Indian payment gateway integration for checkout, collections, and transaction reconciliation.',
+    'AI'                  => 'AI-powered conversational search using OpenAI embeddings, vector search, and Laravel APIs to help students discover relevant universities, courses, and scholarships.',
 ];
 
 function render_project_chip(string $label, array $tooltips, bool $withTooltip = false): void
@@ -43,7 +44,7 @@ $projects = [
         'title'              => 'Study From UAE &amp; CollegeVorti',
         'type'               => 'Education Platforms',
         'summary'            => 'International education platforms for UAE and Bangladesh with university discovery, course exploration, and student journeys built to scale.',
-        'chips'              => ['Laravel', 'MySQL', 'AJAX', 'AWS', 'Easebuzz', 'Bootstrap'],
+        'chips'              => ['Laravel', 'MySQL', 'AJAX', 'AWS', 'Easebuzz', 'Bootstrap', 'AI'],
         'links'              => [
             ['label' => 'Study From UAE', 'url' => 'https://www.studyfromuae.com/'],
             ['label' => 'CollegeVorti', 'url' => 'https://www.collegevorti.com/'],
@@ -58,6 +59,7 @@ $projects = [
             'Role-based administration panels for content and users',
             'AWS hosting tuned for traffic spikes and high availability',
             'Partner and internal endpoints for connected services',
+            'AI-powered search on Study From UAE with conversational queries, semantic matching across universities, courses, and scholarships, and intelligent follow-up recommendations.',
         ],
     ],
     [
@@ -145,9 +147,6 @@ $projects = [
         'type'               => 'National Science Festival Management Platform',
         'summary'            => 'National science festival platform with participant coordination, content publishing, and festival administration in one place.',
         'chips'              => ['CodeIgniter', 'MySQL', 'CMS', 'Admin Panels', 'AJAX'],
-        'links'              => [
-            ['label' => 'Visit Website', 'url' => 'https://www.scienceindiafest.org/'],
-        ],
         'confidential_badge' => null,
         'details'            => [
             'Role-based administration for festival organisers and partners',

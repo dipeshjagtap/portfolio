@@ -21,7 +21,7 @@
             </div>
             <div class="hero-visual reveal">
                 <div class="hero-card">
-                    <img src="<?= e(asset_url('assets/images/profile.png')) ?>"
+                    <img src="<?= e(asset_url('assets/images/profile.webp')) ?>"
                         alt="Dipesh Jagtap — Senior Software Developer" width="400" height="400" fetchpriority="high"
                         loading="eager">
                     <span class="hero-badge">Backend &amp; API engineering</span>

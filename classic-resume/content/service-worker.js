@@ -1,7 +1,7 @@
 // ===== service-worker.js =====
 
 // Version the cache – change this when you update files
-const CACHE_NAME = "dipeshjagtap-resume-v2";
+const CACHE_NAME = "dipeshjagtap-resume-v3";
 
 // List of files to cache
 const ASSETS_TO_CACHE = [
@@ -9,7 +9,7 @@ const ASSETS_TO_CACHE = [
   "/resume/index.html",
   "/resume/content/style.css",
   "/resume/content/style1.css",
-  "/resume/content/dipesh.png",
+  "/resume/content/dipesh.webp",
   "/resume/content/favicon/favicon-32x32.png",
   "/resume/content/favicon/favicon-16x16.png",
   "/resume/content/favicon/android-chrome-192x192.png",

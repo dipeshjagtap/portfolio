@@ -5,8 +5,8 @@
   "start_url": "/resume/",
   "scope": "/resume/",
   "display": "standalone",
-  "background_color": "#0d1117",
-  "theme_color": "#0d1117",
+  "background_color": "#0a0e17",
+  "theme_color": "#0a0e17",
   "orientation": "portrait",
   "icons": [
     {

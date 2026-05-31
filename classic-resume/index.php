@@ -10,7 +10,7 @@
     <meta name="keywords" content="Dipesh Jagtap, Software Developer, Laravel, CodeIgniter, REST API, PHP Developer, MySQL, MongoDB, JavaScript, Pune, Resume, Portfolio, Web Developer">
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
-    <meta name="theme-color" content="#0d1117" />
+    <meta name="theme-color" content="#0a0e17" />
     <meta name="apple-mobile-web-app-capable" content="yes">
 
     
@@ -77,7 +77,7 @@
 <body>
     <div class="container">
         <header class="profile-header">
-            <img src="./content/dipesh.png" alt="Dipesh Jagtap" class="profile-photo">
+            <img src="./content/dipesh.webp" alt="Dipesh Jagtap" class="profile-photo">
             <h1>Dipesh Jagtap </h1>
             <p class="tagline">
               Senior Software Developer | Laravel, CodeIgniter & Express.js | RESTful APIs | JavaScript, AJAX |

@@ -30,7 +30,7 @@ $pdfOk = is_file($pdfPathSection);
                     <a class="btn btn-ghost" href="<?= e(base_url('classic-resume/')) ?>">Classic site</a>
                 </div>
             </div>
-            <p class="resume-hint muted">A PDF download will be added here soon. Education, certifications, and honors are on the <a href="<?= e(base_url('resume')) ?>">dedicated resume page</a>.</p>
+            <p class="resume-hint muted">Download the PDF resume or browse education, certifications, and honors on the <a href="<?= e(base_url('resume')) ?>">dedicated resume page</a>.</p>
         </div>
     </div>
 </section>

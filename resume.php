@@ -44,9 +44,6 @@ require __DIR__ . '/includes/header.php';
             <?php endif; ?>
             <a class="btn btn-secondary" href="<?= e(base_url('classic-resume/')) ?>">Classic resume site</a>
         </div>
-        <p class="muted" style="margin:0; font-size:0.88rem;">
-            Place the file at <code style="font-family:var(--mono); font-size:0.85em;">assets/uploads/dipesh-jagtap-resume.pdf</code> on the server to enable the download button.
-        </p>
     </div>
 
     <section class="section reveal" aria-labelledby="edu-heading">

@@ -15,6 +15,7 @@
                 <p class="when"><i class="fas fa-calendar" aria-hidden="true"></i> April 2023 - Present · Pune / Pimpri-Chinchwad · On-site</p>
                 <ul>
                     <li>Build and extend <strong>Laravel</strong> platforms for <strong>education products</strong>—multi-role admin dashboards and enrolment flows with solid validation at the backend.</li>
+                    <li>Delivered AI-assisted search experiences for education platforms using semantic search, embeddings, and conversational discovery workflows.</li>
                     <li>Deliver <strong>enterprise scheduling</strong> with <strong>Outlook</strong> / <strong>Microsoft Graph</strong> OAuth, calendar sync, and approval steps for internal teams.</li>
                     <li>Develop <strong>CMS-linked admin systems</strong> for content, courses, and publishing—<strong>AJAX-driven</strong> updates across branded property panels.</li>
                     <li>Ship <strong>CRM-connected campaign landing pages</strong>—lead capture, enquiry routing, webhooks, and server-side validation tied to marketing pipelines.</li>
