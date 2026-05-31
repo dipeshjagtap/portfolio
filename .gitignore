@@ -48,10 +48,6 @@ temp/
 .php-cs-fixer.cache
 phpstan-cache/
 
-# User uploads (resume PDF, etc.) — keep directory via .gitkeep if present
-/assets/uploads/*
-!assets/uploads/.gitkeep
-
 # Python (e.g. private/generate_favicons.py)
 __pycache__/
 *.py[cod]
